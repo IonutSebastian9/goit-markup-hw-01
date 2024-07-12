@@ -31,6 +31,9 @@ body {
 .address-link {
   color: var(--slate-text);
 }
+.address-link:hover {
+  color: var(--primary-color-ocean);
+}
 
 .main-header {
   background-color: var(--corn-color);
@@ -54,6 +57,9 @@ body {
   cursor: pointer;
   background-color: var(--button-color);
   color: var(--white-text);
+}
+.primary-button:hover {
+  background-color: var(--primary-color-ocean);
 }
 
 .features-titles {
